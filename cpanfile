@@ -6,6 +6,7 @@ requires 'JSON';
 requires 'Scalar::Util';
 requires 'Carp';
 requires 'URI';
+requires 'Module::Runtime';
 
 on test => sub {
     requires 'Test::More', '0.96';
