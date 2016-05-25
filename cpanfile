@@ -13,4 +13,5 @@ on test => sub {
     requires 'Test::Perl::Critic';
     requires 'Test::MockModule';
     requires 'Test::MockObject';
+    requires 'Test::Exception';
 };
