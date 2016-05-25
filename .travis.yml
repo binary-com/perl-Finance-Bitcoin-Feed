@@ -15,7 +15,6 @@ before_install:
     - perl -V
     - "cpanm -n --installdeps ."
     - "cpanm -n Devel::Cover::Report::Coveralls"
-    - "cpanm -n Module::Runtime"
 script:
   perl Makefile.PL && make test && cover -test -report coveralls
 
